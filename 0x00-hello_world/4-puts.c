@@ -1,13 +1,11 @@
 #include <stdio.h>
 /**
- * 
- * main - This is the main fucntion to print string using puts
+ * main - Entry point for Hello program
  *
- * Return: The return is executed when the program is completed
- *
+ * Return: Return is always 0 (Success)
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle");
-return(0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
