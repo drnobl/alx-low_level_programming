@@ -1,25 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Entry point  for 2 number combination
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 on Success
  */
 
 int main(void)
 {
-	int d;
+	int f;
+	int s;
 
-	for (d = 0; d < 100; d++)
+	for (f = 0; f < 10; f++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		for (s = 1; s < 10; s++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (f < s && f != s)
+			{
+				putchar(f + '0');
+				putchar(s + '0');
+				if (f + s != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');

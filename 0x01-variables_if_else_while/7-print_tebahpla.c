@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 
 /**
- * main - Entry point
+ * main - Entry point for alphabets from z-a
  *
- * Return: Always 0 (Success)
+ * Return: Returns 0 (Success)
  */
 
 int main(void)
@@ -14,7 +13,7 @@ int main(void)
 
 	for (i = 'z'; i >= 'a'; i--)
 		putchar(i);
-		putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
