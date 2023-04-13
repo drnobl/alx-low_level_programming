@@ -9,6 +9,9 @@
  * which contains a copy of the string given as a parameter.
  *
  * @str: A string pointer parameter
+ *
+ * Return: New pointer
+ *
  */
 char *_strdup(char *str)
 {
