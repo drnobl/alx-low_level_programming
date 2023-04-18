@@ -9,9 +9,10 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	char *name[25];
+	if (d == NULL)
+		d = malloc(sizeof(struct dog));
+	d.name = name;
+	d.age = age;
+	d.owner = owner;
 
-	float age(10);
-
-	char *owner[25];
 }
