@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
- * myFirstfunc - Apply the constructor attribute to myStartupFun() so that it
- * is executed before main()
+ * myFirstfunc - Apply the constructor attribute to
+ * myFirstFunc() so that it is executed before main()
  */
 
-void myFirstfunc(void) __attribute__((constructor));
+void myFirstfunc(void);
+/*__attribute__((constructor));*/
 
 /**
  * myFirstfunc - implementation of myFirstfunc
