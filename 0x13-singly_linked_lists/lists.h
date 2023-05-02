@@ -8,6 +8,14 @@
  * Description: singly linked list node structure
  * 
  */
+
+/*STANDARD LIB HEADER files*/
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+
+
 typedef struct listint_s
 {
     int n;
