@@ -1,5 +1,5 @@
 /* 2-str_concat.c*/
-#include "holberton.h"
+#include "main.h"
 
 /**
  * *str_concat - concatenates two strings
